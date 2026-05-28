@@ -2,9 +2,22 @@
 //
 
 #include <iostream>
+#include "add.h"
+#include "sub.h"
+#include "mul.h"
+
+
 
 int main()
 {
+    int addd = add(3, 9);
+    int subd = sub(15, 5);
+    int muld = mul(45, 78);
+   
+    printf("ADD[ %d ]\n", addd);
+    printf("minus[ %d ]\n", subd);
+    printf("mul[ %d ]\n", muld);
+
     std::cout << "Hello World!\n";
 }
 
